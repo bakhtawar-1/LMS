@@ -1,0 +1,162 @@
+/* Styling for the students section */
+.students-section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #0a886e;
+    margin-bottom: 30px;
+  }
+  
+  /* Search Bar Styling */
+  .search-student input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .search-student input:focus {
+    border-color: #0a886e;
+    outline: none;
+  }
+  
+  /* Add Student Button */
+  .add-student-btn {
+    background-color: #0a886e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .add-student-btn:hover {
+    background-color: #0a886e;
+  }
+  
+  /* Modal Styling */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .modal-content input,
+  .modal-content select {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-content button {
+    padding: 10px;
+    background-color: #0a886e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .modal-content button:hover {
+    background-color: #0a886e;
+  }
+  
+  .modal-content button[type="button"] {
+    background-color: #f44336;
+  }
+  
+  .modal-content button[type="button"]:hover {
+    background-color: #e53935;
+  }
+  
+  /* Student List Styling */
+  .student-list {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .student-list table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  .student-list th,
+  .student-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .student-list th {
+    background-color: #0a886e;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .student-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-list tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .student-list tbody tr td {
+    color: #333;
+  }
+  
+  .student-list tbody tr td:first-child {
+    font-weight: bold;
+  }
+  
+  .student-list p {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    padding: 20px 0;
+  }
+  

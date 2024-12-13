@@ -1,0 +1,69 @@
+.fee-structure {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+.fee-structure h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #34495e;
+}
+
+.department-table {
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.department-table h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.department-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.department-table th,
+.department-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.department-table th {
+    background-color: #f3f4f6;
+    color: #34495e;
+    font-weight: bold;
+}
+
+.department-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.department-table tr:hover {
+    background-color: #f1f5f9;
+    cursor: pointer;
+}
+
+.department-table td {
+    color: #2c3e50;
+}
+
+.department-table tr:first-child th {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
